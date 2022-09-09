@@ -9,7 +9,7 @@ import (
 
 // createEntryHandler for the "POST" /v1/entries" endpoint
 func (app *application) createEntryHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "create a new entry.....")
+	fmt.Fprintln(w, "create a new entry for quiz purposes.....")
 }
 
 // showEntryHandlerfor the "GET" /v1/entries/:id" endpoint
