@@ -1,3 +1,5 @@
+migrate create -seq -ext=.sql -dir=./migrations kriolmig
+
 migrate -path ./migrations -database "postgresql://ocollins:Passw0rd@localhost:5432/kriol?sslmode=disable" -verbose down
 migrate -path ./migrations -database "postgresql://ocollins:Passw0rd@localhost:5432/kriol?sslmode=disable" -verbose up
 

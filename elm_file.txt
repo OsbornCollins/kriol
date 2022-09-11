@@ -1,2 +1,10 @@
 import String
-area base height = "The area of a triangle with base " ++ String.fromInt base ++ " and height " ++ String.fromInt height ++ " is " ++ String.fromFloat (toFloat(base * height)/2)
+baseU = 
+heightU = 
+area = area base height = (base * height)/2
+printArea = "The area of a triangle with base " ++ String.fromFloat (baseU) ++ " and height " ++ String.fromFloat (heightU) ++ " is " ++ String.fromFloat (area baseU heightU)
+printArea
+
+import String
+area = area base height = (base * height)/2
+printArea base height = "The area of a triangle with base " ++ String.fromFloat (base) ++ " and height " ++ String.fromFloat (height) ++ " is " ++ String.fromFloat (area base height)
