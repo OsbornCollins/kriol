@@ -1,7 +1,7 @@
 import String
 baseU = 
 heightU = 
-area = area base height = (base * height)/2
+area base height = (base * height)/2
 printArea = "The area of a triangle with base " ++ String.fromFloat (baseU) ++ " and height " ++ String.fromFloat (heightU) ++ " is " ++ String.fromFloat (area baseU heightU)
 printArea
 
